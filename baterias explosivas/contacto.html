@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baterías Baterlyt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo-bateria.jpg">
+            Baterlyt</a>
+    </header>
+    <!--- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+
+    <!-- No quitar esta linea que si no no se porqué esta mierda no funciona -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="galería.html">Tienda</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html" class="activo">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="destacado">
+            <!-- esto es para agrupar los elementos que luego van a ir apilados en un flex del css-->
+            <h1>
+                <span class="colorin">B</span>aterlit, baterías de litio fiables no explosivas
+            </h1>
+            <h2>¿Cansado de que su <a href="#">avión</a> explote por culpa de la batería del móvil?</h2>
+            <p>¡Contacte con nosotros!</p>
+            <ul class="contactoul">
+                <li>Llámando al <a href="tel:+34777888999">777 888 999</a></li>
+                <li>Por Whatsapp <a href="https://wa.me/34777888999">desde aquí</a>.</li>
+                <li>Escribiéndonos a <a
+                        href="mailto:notevoyadecirmicorreo@baterlyt.es">notevoyadecirmicorreo@baterlyt.es</a></li>
+            </ul>
+
+            <p>O a través de este formulario:</p>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">e-mail:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <li>
+                        <label for="msg">Comentarios:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+            <p>Estamos en:</p>
+            <address>c/ Una de por aquí, 23A<br>
+                33201 Gijón<br>
+                Asturias, España, y olé</address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.101116009747!2d-5.666175685090785!3d43.54193407912526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367c66e0ed2373%3A0xeb0b3a4770193896!2sC.%20Corrida%2C%2027%2C%2033206%20Gij%C3%B3n%2C%20Asturias!5e0!3m2!1ses!2ses!4v1663691390212!5m2!1ses!2ses"
+                width="540" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main> <!-- fin main -->
+
+    <footer>
+        <p class="centrate">&copy; Copyright 2022</p>
+        <ul>
+            <li><a href="#">Aviso Legal</a></li>
+            <li>|</li>
+            <li><a href="#">Política de Cookies</a></li>
+            <li>|</li>
+            <li><a href="#">Política de Privacidad</a></li>
+        </ul>
+    </footer> <!-- fin de footer -->
+</body>
+
+</html>

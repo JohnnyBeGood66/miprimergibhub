@@ -1,0 +1,239 @@
+html {
+  background: linear-gradient(#ccc, #fff);
+  background-image: url(../img/lima.jpg);
+  --verdecorporativo: #0ca713;
+  --verdecorporclaro: #c1e4c2;
+}
+
+body {
+  max-width: 540px;
+  margin: 10px auto;
+  padding: 40px;
+  font-family: sans-serif;
+  padding: 60px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+a {
+  text-decoration: none;
+  color: var(--verdecorporativo);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.galeria {
+  display: flex;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+header a {
+  font-size: 42px;
+  font-family: fantasy;
+  display: inline-block;
+  font-style: oblique;
+}
+
+p.constuccion {
+  text-align: center;
+  font-size: 55px;
+  color: var(--verdecorporativo);
+}
+
+.colorin {
+  color: var(--verdecorporativo);
+}
+
+.enorme {
+  font-size: 100px;
+  color: var(--verdecorporativo);
+  font-weight: bolder;
+}
+
+.centrate {
+  text-align: center;
+}
+
+.perdidos a {
+  font-weight: bolder;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li,
+nav ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  transition: all 0.4s;
+  background: #000;
+  color: var(--verdecorporativo);
+  padding: 20px;
+  font-weight: bolder;
+}
+
+nav ul li a:hover {
+  background: #fff;
+}
+nav ul li a.activo {
+  background: rgba(255, 255, 255, 0);
+}
+
+
+footer {
+  margin: 0;
+  padding: 40px;
+  background: var(--verdecorporclaro);
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  margin: 0;
+  padding: 0;
+}
+
+footer p.centrate {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+footer a {
+  color: var(--verdecorporativo);
+}
+
+.contactoul {
+  list-style: circle;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em 1em 1em 40px;
+  border: 1px solid  var(--verdecorporativo);
+  border-radius: 1em;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li+li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid var(--verdecorporativo);
+  padding: 3px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--verdecorporativo);
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+/* Esto es para mostrar, a modo de control,
+   los elementos de la página.
+   Se verán enmarcados y con un color de fondo.
+ 
+  a, img, span, strong, em{
+    display: inline;
+  }
+  
+  html,  body, header, main, footer, div, aside, addresss,  
+  h1, h2, h3, h4, h5, h6, p, ul, li, ol, iframe, table, dl, dt, dd{
+    display: block;
+  }
+ 
+  body:hover *{
+   border: solid 1px red;
+   padding:8px;
+    margin:5px 0;
+    box-sizing:border-box;
+    background: rgba(255,0,0,.2);
+  }
+  
+  body *:hover::before{
+    content:"."attr(class)" #" attr(id);
+    background: yellow;
+    font-size: 30px;
+    display:inline;
+  }
+    */
+
+/* ejemplo de unos botones 
+  .btn{
+    background: none;
+    border-radius:20px;
+    color:red;
+    font-size: 10px;
+    text-align: center;
+    padding: 0 30px;
+    border:red 2px solid;
+    display: ;
+    height:120px;
+  }
+  
+  .btn:hover{
+    background: red;
+    color:white;
+  }
+  
+  .btn:active{
+    background: #000;
+  }
+
+  */
